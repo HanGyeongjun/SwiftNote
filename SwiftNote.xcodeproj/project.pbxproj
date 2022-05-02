@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A321AE3928202B6C00F907CB /* UsefulLinksPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3828202B6C00F907CB /* UsefulLinksPage.swift */; };
+		A321AE3B28202BCC00F907CB /* BookMarkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3A28202BCC00F907CB /* BookMarkPage.swift */; };
+		A321AE3D28202BFF00F907CB /* TechWorkshopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3C28202BFF00F907CB /* TechWorkshopPage.swift */; };
+		A321AE3F28202C0C00F907CB /* DesignWorkshopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3E28202C0C00F907CB /* DesignWorkshopPage.swift */; };
+		A321AE4428202F7F00F907CB /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE4328202F7F00F907CB /* PostPage.swift */; };
 		A32ECEA0281A800800DB5B30 /* SwiftNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */; };
 		A32ECEA2281A800800DB5B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECEA1281A800800DB5B30 /* ContentView.swift */; };
 		A32ECEA4281A800900DB5B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32ECEA3281A800900DB5B30 /* Assets.xcassets */; };
@@ -14,6 +19,9 @@
 		A32ECEB1281A800900DB5B30 /* SwiftNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECEB0281A800900DB5B30 /* SwiftNoteTests.swift */; };
 		A32ECEBB281A800900DB5B30 /* SwiftNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECEBA281A800900DB5B30 /* SwiftNoteUITests.swift */; };
 		A32ECEBD281A800900DB5B30 /* SwiftNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECEBC281A800900DB5B30 /* SwiftNoteUITestsLaunchTests.swift */; };
+		A32ECECB281A860800DB5B30 /* YagomBasicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */; };
+		A32ECECD281A878F00DB5B30 /* SwiftOrgPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */; };
+		A3B2F680281BC49900B9AFF0 /* PostThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A321AE3828202B6C00F907CB /* UsefulLinksPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLinksPage.swift; sourceTree = "<group>"; };
+		A321AE3A28202BCC00F907CB /* BookMarkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkPage.swift; sourceTree = "<group>"; };
+		A321AE3C28202BFF00F907CB /* TechWorkshopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechWorkshopPage.swift; sourceTree = "<group>"; };
+		A321AE3E28202C0C00F907CB /* DesignWorkshopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignWorkshopPage.swift; sourceTree = "<group>"; };
+		A321AE4328202F7F00F907CB /* PostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPage.swift; sourceTree = "<group>"; };
 		A32ECE9C281A800800DB5B30 /* SwiftNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteApp.swift; sourceTree = "<group>"; };
 		A32ECEA1281A800800DB5B30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,9 @@
 		A32ECEB6281A800900DB5B30 /* SwiftNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32ECEBA281A800900DB5B30 /* SwiftNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteUITests.swift; sourceTree = "<group>"; };
 		A32ECEBC281A800900DB5B30 /* SwiftNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagomBasicPage.swift; sourceTree = "<group>"; };
+		A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOrgPage.swift; sourceTree = "<group>"; };
+		A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThumbnail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A321AE4028202C1600F907CB /* Workshops */ = {
+			isa = PBXGroup;
+			children = (
+				A321AE3C28202BFF00F907CB /* TechWorkshopPage.swift */,
+				A321AE3E28202C0C00F907CB /* DesignWorkshopPage.swift */,
+			);
+			path = Workshops;
+			sourceTree = "<group>";
+		};
+		A321AE4128202C3300F907CB /* SwiftNotes */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */,
+				A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */,
+			);
+			path = SwiftNotes;
+			sourceTree = "<group>";
+		};
+		A321AE4228202C5200F907CB /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				A321AE3828202B6C00F907CB /* UsefulLinksPage.swift */,
+				A321AE3A28202BCC00F907CB /* BookMarkPage.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		A321AE45282036EE00F907CB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A32ECE93281A800700DB5B30 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +146,12 @@
 			children = (
 				A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */,
 				A32ECEA1281A800800DB5B30 /* ContentView.swift */,
+				A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */,
+				A321AE4328202F7F00F907CB /* PostPage.swift */,
+				A321AE4228202C5200F907CB /* Browse */,
+				A321AE4128202C3300F907CB /* SwiftNotes */,
+				A321AE4028202C1600F907CB /* Workshops */,
+				A321AE45282036EE00F907CB /* Data */,
 				A32ECEA3281A800900DB5B30 /* Assets.xcassets */,
 				A32ECEA5281A800900DB5B30 /* Preview Content */,
 			);
@@ -257,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A321AE4428202F7F00F907CB /* PostPage.swift in Sources */,
 				A32ECEA2281A800800DB5B30 /* ContentView.swift in Sources */,
+				A3B2F680281BC49900B9AFF0 /* PostThumbnail.swift in Sources */,
+				A321AE3928202B6C00F907CB /* UsefulLinksPage.swift in Sources */,
 				A32ECEA0281A800800DB5B30 /* SwiftNoteApp.swift in Sources */,
+				A321AE3F28202C0C00F907CB /* DesignWorkshopPage.swift in Sources */,
+				A32ECECB281A860800DB5B30 /* YagomBasicPage.swift in Sources */,
+				A32ECECD281A878F00DB5B30 /* SwiftOrgPage.swift in Sources */,
+				A321AE3B28202BCC00F907CB /* BookMarkPage.swift in Sources */,
+				A321AE3D28202BFF00F907CB /* TechWorkshopPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
