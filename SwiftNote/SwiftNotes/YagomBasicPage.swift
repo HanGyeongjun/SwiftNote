@@ -9,8 +9,7 @@ import SwiftUI
 
 struct YagomBasicPage: View {
     var body: some View {
-        Text("YagomBasic")
-            .navigationTitle("Yagom Basic")
+        PostTumbnailPage(viewTitle: "Yagom Basic", sectionName: "yagombasic")
     }
 }
 

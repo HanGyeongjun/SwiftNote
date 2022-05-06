@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     var body: some View {
+        
         NavigationView {
             List {
                 
@@ -29,7 +29,7 @@ struct ContentView: View {
                     )
                     NavigationLink(
                         destination: YagomBasicPage(),
-                        label: {Label("Yagom Basic", systemImage: "tv")}
+                        label: {Label("Yagom Basic", systemImage: "text.book.closed")}
                     )
                 }
                 
@@ -48,6 +48,8 @@ struct ContentView: View {
             }
             .listStyle(SidebarListStyle())
             .navigationTitle("Swift Note")
+            
+
         }
     }
 }

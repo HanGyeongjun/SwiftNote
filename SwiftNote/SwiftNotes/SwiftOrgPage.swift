@@ -9,21 +9,7 @@ import SwiftUI
 
 struct SwiftOrgPage: View {
     var body: some View {
-        VStack {
-            List {
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-                PostThumbnail()
-            }
-        }
-        .navigationTitle("Swift.org")
+        PostTumbnailPage(viewTitle: "Swift.org", sectionName: "swift.org")
     }
 }
 

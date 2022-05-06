@@ -12,6 +12,7 @@
 		A321AE3D28202BFF00F907CB /* TechWorkshopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3C28202BFF00F907CB /* TechWorkshopPage.swift */; };
 		A321AE3F28202C0C00F907CB /* DesignWorkshopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE3E28202C0C00F907CB /* DesignWorkshopPage.swift */; };
 		A321AE4428202F7F00F907CB /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE4328202F7F00F907CB /* PostPage.swift */; };
+		A321AE472820406100F907CB /* UsefunLinkThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321AE462820406100F907CB /* UsefunLinkThumbnail.swift */; };
 		A32ECEA0281A800800DB5B30 /* SwiftNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */; };
 		A32ECEA2281A800800DB5B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECEA1281A800800DB5B30 /* ContentView.swift */; };
 		A32ECEA4281A800900DB5B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32ECEA3281A800900DB5B30 /* Assets.xcassets */; };
@@ -22,6 +23,12 @@
 		A32ECECB281A860800DB5B30 /* YagomBasicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */; };
 		A32ECECD281A878F00DB5B30 /* SwiftOrgPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */; };
 		A3B2F680281BC49900B9AFF0 /* PostThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */; };
+		A3FA6E4C2820FC9800EA1052 /* UsefulLinksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E4B2820FC9800EA1052 /* UsefulLinksSection.swift */; };
+		A3FA6E512821102800EA1052 /* UsefulLinksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E502821102800EA1052 /* UsefulLinksData.swift */; };
+		A3FA6E5528223E6C00EA1052 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A3FA6E5428223E6C00EA1052 /* postData.json */; };
+		A3FA6E57282246BB00EA1052 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E56282246BB00EA1052 /* PostData.swift */; };
+		A3FA6E59282385D800EA1052 /* PostTumbnailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E58282385D800EA1052 /* PostTumbnailPage.swift */; };
+		A3FA6E5B28238BDD00EA1052 /* UsefulLinksData.json in Resources */ = {isa = PBXBuildFile; fileRef = A3FA6E5A28238BDD00EA1052 /* UsefulLinksData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +54,8 @@
 		A321AE3C28202BFF00F907CB /* TechWorkshopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechWorkshopPage.swift; sourceTree = "<group>"; };
 		A321AE3E28202C0C00F907CB /* DesignWorkshopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignWorkshopPage.swift; sourceTree = "<group>"; };
 		A321AE4328202F7F00F907CB /* PostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPage.swift; sourceTree = "<group>"; };
-		A32ECE9C281A800800DB5B30 /* SwiftNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A321AE462820406100F907CB /* UsefunLinkThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefunLinkThumbnail.swift; sourceTree = "<group>"; };
+		A32ECE9C281A800800DB5B30 /* Swift Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteApp.swift; sourceTree = "<group>"; };
 		A32ECEA1281A800800DB5B30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A32ECEA3281A800900DB5B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +68,13 @@
 		A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagomBasicPage.swift; sourceTree = "<group>"; };
 		A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOrgPage.swift; sourceTree = "<group>"; };
 		A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThumbnail.swift; sourceTree = "<group>"; };
+		A3FA6E4B2820FC9800EA1052 /* UsefulLinksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLinksSection.swift; sourceTree = "<group>"; };
+		A3FA6E502821102800EA1052 /* UsefulLinksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLinksData.swift; sourceTree = "<group>"; };
+		A3FA6E5428223E6C00EA1052 /* postData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postData.json; sourceTree = "<group>"; };
+		A3FA6E56282246BB00EA1052 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A3FA6E58282385D800EA1052 /* PostTumbnailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTumbnailPage.swift; sourceTree = "<group>"; };
+		A3FA6E5A28238BDD00EA1052 /* UsefulLinksData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsefulLinksData.json; sourceTree = "<group>"; };
+		A3FA6E5D282459B400EA1052 /* SwiftNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftNote.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +132,22 @@
 		A321AE45282036EE00F907CB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A3FA6E5428223E6C00EA1052 /* postData.json */,
+				A3FA6E56282246BB00EA1052 /* PostData.swift */,
+				A3FA6E5A28238BDD00EA1052 /* UsefulLinksData.json */,
+				A3FA6E502821102800EA1052 /* UsefulLinksData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		A321AE482820406900F907CB /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */,
+				A3FA6E58282385D800EA1052 /* PostTumbnailPage.swift */,
+				A321AE4328202F7F00F907CB /* PostPage.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 		A32ECE93281A800700DB5B30 = {
@@ -134,7 +163,7 @@
 		A32ECE9D281A800800DB5B30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A32ECE9C281A800800DB5B30 /* SwiftNote.app */,
+				A32ECE9C281A800800DB5B30 /* Swift Note.app */,
 				A32ECEAC281A800900DB5B30 /* SwiftNoteTests.xctest */,
 				A32ECEB6281A800900DB5B30 /* SwiftNoteUITests.xctest */,
 			);
@@ -144,10 +173,11 @@
 		A32ECE9E281A800800DB5B30 /* SwiftNote */ = {
 			isa = PBXGroup;
 			children = (
+				A3FA6E5D282459B400EA1052 /* SwiftNote.entitlements */,
 				A32ECE9F281A800800DB5B30 /* SwiftNoteApp.swift */,
 				A32ECEA1281A800800DB5B30 /* ContentView.swift */,
-				A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */,
-				A321AE4328202F7F00F907CB /* PostPage.swift */,
+				A321AE482820406900F907CB /* Post */,
+				A3FA6E5C282445D000EA1052 /* UsefulLink */,
 				A321AE4228202C5200F907CB /* Browse */,
 				A321AE4128202C3300F907CB /* SwiftNotes */,
 				A321AE4028202C1600F907CB /* Workshops */,
@@ -183,6 +213,15 @@
 			path = SwiftNoteUITests;
 			sourceTree = "<group>";
 		};
+		A3FA6E5C282445D000EA1052 /* UsefulLink */ = {
+			isa = PBXGroup;
+			children = (
+				A321AE462820406100F907CB /* UsefunLinkThumbnail.swift */,
+				A3FA6E4B2820FC9800EA1052 /* UsefulLinksSection.swift */,
+			);
+			path = UsefulLink;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,7 +239,7 @@
 			);
 			name = SwiftNote;
 			productName = SwiftNote;
-			productReference = A32ECE9C281A800800DB5B30 /* SwiftNote.app */;
+			productReference = A32ECE9C281A800800DB5B30 /* Swift Note.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A32ECEAB281A800900DB5B30 /* SwiftNoteTests */ = {
@@ -288,7 +327,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A32ECEA7281A800900DB5B30 /* Preview Assets.xcassets in Resources */,
+				A3FA6E5528223E6C00EA1052 /* postData.json in Resources */,
 				A32ECEA4281A800900DB5B30 /* Assets.xcassets in Resources */,
+				A3FA6E5B28238BDD00EA1052 /* UsefulLinksData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,15 +355,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A321AE4428202F7F00F907CB /* PostPage.swift in Sources */,
+				A3FA6E4C2820FC9800EA1052 /* UsefulLinksSection.swift in Sources */,
+				A3FA6E59282385D800EA1052 /* PostTumbnailPage.swift in Sources */,
 				A32ECEA2281A800800DB5B30 /* ContentView.swift in Sources */,
+				A321AE472820406100F907CB /* UsefunLinkThumbnail.swift in Sources */,
 				A3B2F680281BC49900B9AFF0 /* PostThumbnail.swift in Sources */,
 				A321AE3928202B6C00F907CB /* UsefulLinksPage.swift in Sources */,
+				A3FA6E512821102800EA1052 /* UsefulLinksData.swift in Sources */,
 				A32ECEA0281A800800DB5B30 /* SwiftNoteApp.swift in Sources */,
 				A321AE3F28202C0C00F907CB /* DesignWorkshopPage.swift in Sources */,
 				A32ECECB281A860800DB5B30 /* YagomBasicPage.swift in Sources */,
 				A32ECECD281A878F00DB5B30 /* SwiftOrgPage.swift in Sources */,
 				A321AE3B28202BCC00F907CB /* BookMarkPage.swift in Sources */,
 				A321AE3D28202BFF00F907CB /* TechWorkshopPage.swift in Sources */,
+				A3FA6E57282246BB00EA1052 /* PostData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,11 +524,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNote/SwiftNote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftNote/Preview Content\"";
+				DEVELOPMENT_TEAM = HN3RL67C46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -494,7 +543,9 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.SwiftNote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Note";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,11 +557,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftNote/SwiftNote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftNote/Preview Content\"";
+				DEVELOPMENT_TEAM = HN3RL67C46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -522,7 +576,9 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.SwiftNote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Note";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

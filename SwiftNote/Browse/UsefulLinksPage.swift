@@ -9,7 +9,18 @@ import SwiftUI
 
 struct UsefulLinksPage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ScrollView {
+            VStack {
+
+                UsefulLinksSection(usefulLinksSectionName: "Swift")
+                UsefulLinksSection(usefulLinksSectionName: "Coding")
+                UsefulLinksSection(usefulLinksSectionName: "Design")
+                UsefulLinksSection(usefulLinksSectionName: "Etc")
+
+
+            }
+        }
     }
 }
 

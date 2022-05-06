@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "linkSection": "Swift",
+        "link": "https://www.swift.org",
+        "linkImage": "swiftLinkThumbnail",
+        "linkName": "Swift.org",
+        "linkDescription": "swift 공식문서",
+        "linkBookmarked": true
+    },
+    {
+        "id": 1,
+        "linkSection": "Swift",
+        "link": "https://www.hackingwithswift.com/",
+        "linkImage": "hackingwithswiftimage",
+        "linkName": "Hacking with Swift",
+        "linkDescription": "swift 정보 페이지",
+        "linkBookmarked": false
+    },
+    {
+        "id": 2,
+        "linkSection": "Swift",
+        "link": "https://seons-dev.tistory.com/",
+        "linkImage": "seogeun",
+        "linkName": "서근 개발노트",
+        "linkDescription": "swift 문법, ui 티스토리 블로그",
+        "linkBookmarked": true
+    },
+    {
+        "id": 3,
+        "linkSection": "Coding",
+        "link": "https://developer.apple.com/",
+        "linkImage": "swiftLinkThumbnail",
+        "linkName": "Apple Developer",
+        "linkDescription": "애플 개발자 홈페이지",
+        "linkBookmarked": true
+    },
+    {
+        "id": 4,
+        "linkSection": "Coding",
+        "link": "https://github.com/",
+        "linkImage": "Github",
+        "linkName": "Github",
+        "linkDescription": "깃허브",
+        "linkBookmarked": false
+    },
+    {
+        "id": 5,
+        "linkSection": "Swift",
+        "link": "https://www.inflearn.com/course/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95/dashboard",
+        "linkImage": "inflearn",
+        "linkName": "Yagom Swift",
+        "linkDescription": "야곰의 스위프트 기본 문법",
+        "linkBookmarked": false
+    },
+    {
+        "id": 6,
+        "linkSection": "Design",
+        "link": "https://developer.apple.com/design/human-interface-guidelines/",
+        "linkImage": "apple",
+        "linkName": "HIG",
+        "linkDescription": "Apple Human Interface Guideline",
+        "linkBookmarked": false
+    },
+    {
+        "id": 7,
+        "linkSection": "Design",
+        "link": "https://www.typewolf.com/",
+        "linkImage": "swiftLinkThumbnail",
+        "linkName": "Typewolf",
+        "linkDescription": "폰트 조합 및 레퍼런스",
+        "linkBookmarked": false
+    },
+    {
+        "id": 8,
+        "linkSection": "Design",
+        "link": "https://www.itsnicethat.com/",
+        "linkImage": "itsnicethat",
+        "linkName": "Its Nice That",
+        "linkDescription": "디자인 매거진",
+        "linkBookmarked": true
+    },
+    {
+        "id": 9,
+        "linkSection": "Coding",
+        "link": "https://stackoverflow.com/",
+        "linkImage": "stackoverflow",
+        "linkName": "StackOverflow",
+        "linkDescription": "스택오버플로우",
+        "linkBookmarked": false
+    },
+    {
+        "id": 10,
+        "linkSection": "Design",
+        "link": "https://www.sketch.com/docs/",
+        "linkImage": "sketch",
+        "linkName": "Sketch 공식문서",
+        "linkDescription": "Sketch 사용법",
+        "linkBookmarked": false
+    },
+    {
+        "id": 11,
+        "linkSection": "Design",
+        "link": "https://color.adobe.com/ko/create",
+        "linkImage": "swiftLinkThumbnail",
+        "linkName": "Adobe Color",
+        "linkDescription": "색상 휠 및 조합 추천",
+        "linkBookmarked": true
+    },
+    {
+        "id": 12,
+        "linkSection": "Coding",
+        "link": "https://jsoneditoronline.org/",
+        "linkImage": "swiftLinkThumbnail",
+        "linkName": "json editor",
+        "linkDescription": "json 온라인 에디터",
+        "linkBookmarked": false
+    },
+    {
+        "id": 13,
+        "linkSection": "Swift",
+        "link": "https://developer.apple.com/swift/",
+        "linkImage": "apple",
+        "linkName": "Swift",
+        "linkDescription": "Apple 개발자 swift 페이지",
+        "linkBookmarked": false
+    },
+    {
+        "id": 13,
+        "linkSection": "Etc",
+        "link": "https://developeracademy.postech.ac.kr/ko/",
+        "linkImage": "appledevacademy",
+        "linkName": "Apple Dev Academy",
+        "linkDescription": "애플 개발자 아카데미",
+        "linkBookmarked": true
+    },
+]
