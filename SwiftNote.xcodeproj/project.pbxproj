@@ -23,6 +23,10 @@
 		A32ECECB281A860800DB5B30 /* YagomBasicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */; };
 		A32ECECD281A878F00DB5B30 /* SwiftOrgPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */; };
 		A3B2F680281BC49900B9AFF0 /* PostThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */; };
+		A3C46E752827B54900EBCE28 /* MarkDownTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C46E742827B54900EBCE28 /* MarkDownTest.swift */; };
+		A3C46E782827B63B00EBCE28 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = A3C46E772827B63B00EBCE28 /* Markdown */; };
+		A3C46E7B2828EB0C00EBCE28 /* MarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = A3C46E7A2828EB0C00EBCE28 /* MarkdownView */; };
+		A3F2514D2827B36600CA5810 /* MarkDownTest.json in Resources */ = {isa = PBXBuildFile; fileRef = A3F2514C2827B36600CA5810 /* MarkDownTest.json */; };
 		A3FA6E4C2820FC9800EA1052 /* UsefulLinksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E4B2820FC9800EA1052 /* UsefulLinksSection.swift */; };
 		A3FA6E512821102800EA1052 /* UsefulLinksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA6E502821102800EA1052 /* UsefulLinksData.swift */; };
 		A3FA6E5528223E6C00EA1052 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A3FA6E5428223E6C00EA1052 /* postData.json */; };
@@ -68,6 +72,8 @@
 		A32ECECA281A860800DB5B30 /* YagomBasicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagomBasicPage.swift; sourceTree = "<group>"; };
 		A32ECECC281A878F00DB5B30 /* SwiftOrgPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOrgPage.swift; sourceTree = "<group>"; };
 		A3B2F67F281BC49900B9AFF0 /* PostThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThumbnail.swift; sourceTree = "<group>"; };
+		A3C46E742827B54900EBCE28 /* MarkDownTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownTest.swift; sourceTree = "<group>"; };
+		A3F2514C2827B36600CA5810 /* MarkDownTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MarkDownTest.json; sourceTree = "<group>"; };
 		A3FA6E4B2820FC9800EA1052 /* UsefulLinksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLinksSection.swift; sourceTree = "<group>"; };
 		A3FA6E502821102800EA1052 /* UsefulLinksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulLinksData.swift; sourceTree = "<group>"; };
 		A3FA6E5428223E6C00EA1052 /* postData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postData.json; sourceTree = "<group>"; };
@@ -82,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C46E7B2828EB0C00EBCE28 /* MarkdownView in Frameworks */,
+				A3C46E782827B63B00EBCE28 /* Markdown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +144,8 @@
 				A3FA6E56282246BB00EA1052 /* PostData.swift */,
 				A3FA6E5A28238BDD00EA1052 /* UsefulLinksData.json */,
 				A3FA6E502821102800EA1052 /* UsefulLinksData.swift */,
+				A3F2514C2827B36600CA5810 /* MarkDownTest.json */,
+				A3C46E742827B54900EBCE28 /* MarkDownTest.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -238,6 +248,10 @@
 			dependencies = (
 			);
 			name = SwiftNote;
+			packageProductDependencies = (
+				A3C46E772827B63B00EBCE28 /* Markdown */,
+				A3C46E7A2828EB0C00EBCE28 /* MarkdownView */,
+			);
 			productName = SwiftNote;
 			productReference = A32ECE9C281A800800DB5B30 /* Swift Note.app */;
 			productType = "com.apple.product-type.application";
@@ -310,6 +324,11 @@
 				Base,
 			);
 			mainGroup = A32ECE93281A800700DB5B30;
+			packageReferences = (
+				A3C46E712827B52200EBCE28 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				A3C46E762827B63B00EBCE28 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				A3C46E792828EB0C00EBCE28 /* XCRemoteSwiftPackageReference "MarkdownView" */,
+			);
 			productRefGroup = A32ECE9D281A800800DB5B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,6 +348,7 @@
 				A32ECEA7281A800900DB5B30 /* Preview Assets.xcassets in Resources */,
 				A3FA6E5528223E6C00EA1052 /* postData.json in Resources */,
 				A32ECEA4281A800900DB5B30 /* Assets.xcassets in Resources */,
+				A3F2514D2827B36600CA5810 /* MarkDownTest.json in Resources */,
 				A3FA6E5B28238BDD00EA1052 /* UsefulLinksData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C46E752827B54900EBCE28 /* MarkDownTest.swift in Sources */,
 				A321AE4428202F7F00F907CB /* PostPage.swift in Sources */,
 				A3FA6E4C2820FC9800EA1052 /* UsefulLinksSection.swift in Sources */,
 				A3FA6E59282385D800EA1052 /* PostTumbnailPage.swift in Sources */,
@@ -697,6 +718,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3C46E712827B52200EBCE28 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		A3C46E762827B63B00EBCE28 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A3C46E792828EB0C00EBCE28 /* XCRemoteSwiftPackageReference "MarkdownView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keitaoouchi/MarkdownView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3C46E772827B63B00EBCE28 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C46E762827B63B00EBCE28 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
+		A3C46E7A2828EB0C00EBCE28 /* MarkdownView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C46E792828EB0C00EBCE28 /* XCRemoteSwiftPackageReference "MarkdownView" */;
+			productName = MarkdownView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A32ECE94281A800700DB5B30 /* Project object */;
 }

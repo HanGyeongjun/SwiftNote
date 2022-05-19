@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MarkdownView
 
 struct PostPage: View {
     
@@ -48,10 +49,9 @@ struct PostPage: View {
                 }
             }
             //본문
-            Text("\(PDA.postDataArr[on].postText)")
+            MarkdownUI(body:"\(PDA.postDataArr[on].postText)")
                 .padding(.top, 12.0)
                 .frame(width: .infinity)
-            
         }
         .padding(.horizontal, 30.0)
 

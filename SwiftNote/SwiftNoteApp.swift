@@ -13,5 +13,6 @@ struct SwiftNoteApp: App {
         WindowGroup {
             ContentView()
         }
+        
     }
 }
